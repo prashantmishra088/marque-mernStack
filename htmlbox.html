@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+
+    <style>
+        .title{
+            background-color:salmon;
+            border:solid black;
+            padding: 3%;
+            margin-bottom: 35px;
+            font-size: 28px;
+        }
+        .info{
+            background-color: rgb(68, 193, 231);
+            border: solid 6px ;
+            border-color: solid navy;
+            border
+            padding:6%;
+            margin: 20px;
+            font-size: 24px
+        }
+        .list li{
+            background-color: yellow;
+            color: purple;
+            margin: 10px 0;
+            padding: 8px;
+            font-size: 20px;
+        }
+       .background{
+        background-color;
+       }
+    .bg{
+        background-color: lightblue;
+        border:  solid navy 8px;
+        margin: 8px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+    
+       }
+       .smallbox{
+        border:solid  3px;
+        margin:5px;
+        padding: 8px;
+        height: 45px;
+        width: 70px;
+        text-align: center;
+        display: flex;
+        font-size: 16px;
+        
+
+       }
+    </style>
+</head>
+<body>
+    <div class="title"><h1>box model</h1></div>
+    <div class="info"><p>every elements on the page has its own box,which can be styled using css</p></div>
+   <div class="info"> <p>from the  inside out </p></div>
+<ul class="list">
+    <li>
+    content</li>
+  <li>  padding</li>
+ <li>  border</li>
+    <li>  margin</li>
+    
+</ul>
+<h1 class="background">background</h1>
+
+
+
+<div class="bg">
+<p> <div class="smallbox" style="background-color: white;">
+    background
+    
+</div>background keep in mind that background will cover the content and the padding </p></div>
+</body>
+</html>
