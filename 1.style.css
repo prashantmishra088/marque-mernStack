@@ -1,0 +1,363 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body{
+
+    background:#f4f6f9;
+    color:#333;
+
+}
+
+/* Header */
+
+header{
+
+    background:#1e3a8a;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 80px;
+
+}
+
+header h1{
+
+    font-size:32px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    margin-left:20px;
+
+    font-size:18px;
+
+    transition:.4s;
+
+}
+
+nav a:hover{
+
+    color:yellow;
+
+}
+
+/* Hero Section */
+
+.hero{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:80px;
+
+    padding:70px;
+
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    color:white;
+
+}
+
+.left img{
+
+    width:220px;
+
+    height:220px;
+
+    border-radius:50%;
+
+    border:6px solid white;
+
+    object-fit:cover;
+
+}
+
+.right{
+
+    width:600px;
+
+}
+
+.right h2{
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
+}
+
+.right h3{
+
+    color:yellow;
+
+    margin-bottom:20px;
+
+}
+
+.right p{
+
+    line-height:28px;
+
+    font-size:18px;
+
+}
+
+button{
+
+    margin-top:25px;
+
+    padding:12px 30px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:white;
+
+    color:#2563eb;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+}
+
+button:hover{
+
+    background:#111827;
+
+    color:white;
+
+}
+
+/* About */
+
+.about{
+
+    width:90%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    margin-top:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+
+}
+
+.about h2{
+
+    color:#1e3a8a;
+
+    margin-bottom:10px;
+
+}
+
+.about p{
+
+    margin-top:20px;
+
+    line-height:30px;
+
+    font-size:18px;
+
+}
+
+/* Education */
+
+.education{
+
+    width:90%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    margin-top:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+
+}
+
+.education h2{
+
+    color:#1e3a8a;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+table,th,td{
+
+    border:1px solid gray;
+
+}
+
+th{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+th,td{
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+/* Skills */
+
+.skills{
+
+    width:90%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    margin-top:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+
+}
+
+.skills h2{
+
+    color:#1e3a8a;
+
+}
+
+.skill{
+
+    margin-top:25px;
+
+}
+
+.skill h3{
+
+    margin-bottom:10px;
+
+}
+
+progress{
+
+    width:90%;
+
+    height:25px;
+
+}
+
+.skill span{
+
+    font-weight:bold;
+
+    margin-left:10px;
+
+}
+
+/* Personal */
+
+.personal{
+
+    width:90%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    margin-top:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+
+}
+
+.personal h2{
+
+    color:#1e3a8a;
+
+}
+
+.personal ul{
+
+    margin-top:20px;
+
+    margin-left:25px;
+
+}
+
+.personal li{
+
+    line-height:35px;
+
+    font-size:18px;
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:40px;
+
+    background:#111827;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
